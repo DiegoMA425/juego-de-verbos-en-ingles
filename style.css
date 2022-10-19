@@ -1,33 +1,26 @@
-h3{
-    color: azure;
-}
-
-p{
-    color: crimson;
-}
-#verbs-Container{
+#verbs-container{
     margin: 0 35%;
-
-}
-
-.verbs{
+  }
+  
+  .verbs-answer{
     display: block;
-}
-.rightAnswer, .rightAnswer:hover{
-    background-color: #6ab04c;
-    border-color: #6ab04c;
-    color: #fff;
-
-}
-
-.wrongAnswer, .wrongAnswer:hover{
-    background-color: #b33030;
-    border-color: #b33030;
-    color: #fff;
-}
-
-#next{
-    margin-top: 7rem;
+  }
+  
+  #next{
+    margin-top: 10rem;
     cursor: pointer;
     color: green;
-}
+  }
+  
+  .rightAnswer, .rightAnswer:hover{
+    background-color: #6ab04c;
+    border-color: #6ab04c;
+    color: #ffffff;
+  }
+  
+  .wrongAnswer, .wrongAnswer:hover{
+    background-color: #B33030;
+    border-color: #B33030;
+    color: #ffffff;
+  }
+  
